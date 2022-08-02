@@ -7,6 +7,7 @@ const data = [
   {
     programeName: 'LA',
     version: '1.0.1',
+    tips: '',
     appId: 'abcsa2454654656',
     env: 'dev',
     action: ''
@@ -23,6 +24,11 @@ const columns = [
     title: '版本号',
     dataIndex: 'version',
     key: 'version',
+  },
+  {
+    title: '备注',
+    dataIndex: 'tips',
+    key: 'tips',
   },
   {
     title: 'AppId',
